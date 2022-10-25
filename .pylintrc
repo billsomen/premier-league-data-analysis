@@ -1,0 +1,9 @@
+[MASTER]
+init-hook='import sys; sys.path.append(".")'
+disable=
+    C0114, # missing-module-docstring
+    R0903, # too-few-public-methods
+    W1203, # logging-fstring-interpolation
+    C0413, # wrong-import-position
+    W0122, # exec-used
+    C0301, # line-too-long
